@@ -1,0 +1,143 @@
+* {
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 .5em;
+    margin: auto;
+}
+
+nav ul li {
+    padding: 0;
+    margin: 3px 0 0;
+    border: 1px solid hsl(225, 80%, 85%);
+    border-radius: 1em;
+    background-color: hsl(225, 80%, 92%);
+    padding: 5px 1em;
+    text-align: center;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+}
+
+div, footer, header, aside {
+    position: relative;
+}
+
+section, aside, header, footer {
+    border: 1px solid hsl(225, 80%, 85%);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    overflow: hidden;
+}
+
+header {
+    background-color: white;
+    border: none;
+    padding-top: 0;
+}
+
+footer {
+    background-color: hsl(225, 80%, 92%);
+}
+
+section {
+    background-color: hsl(225, 80%, 96%);
+}
+
+aside {
+    background-color: hsl(225, 80%, 99%);
+}
+
+img {
+    float: left;
+    padding: 1em;
+    padding-left: 0;
+}
+
+
+#aboutMe img {
+    border-radius: 50%;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header h2 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+@media only screen and (min-width: 45em) {
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+    }
+    
+    div {
+        min-height: 430px;
+    }
+    
+    body {
+        position: relative;
+    }
+    
+    section, aside {
+        min-height: 135px;
+    }
+    
+    section {
+        margin-right: 20.5em;
+    }
+    
+    main {
+        min-height: 28em;
+    }
+    
+    #rei {
+        position: absolute;
+        top: 10em;
+        right: 0;
+        width: 16em;
+        
+    }
+    
+    #bd {
+        position: absolute;
+        top: 21.75em;
+        right: 0;
+        width: 16em;
+        
+    }
+    
+    textarea {
+        width: 50%;
+    }
+}
+
+
+
+
